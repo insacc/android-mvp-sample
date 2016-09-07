@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MyAuction</string>
+
+    <string name="auction_successfully_save_message">Auction saved successfully</string>
+    <string name="no_auction_error_message">There is no auction available</string>
+    <string name="login">Login</string>
+    <string name="login_failed">Please check your username and password</string>
+    <string name="login_successful">Logged in successfully</string>
+    <string name="register">Register</string>
+    <string name="register_failed">Please Check Your Inputs</string>
+    <string name="register_successful">User created, Please Log in</string>
+    <string name="register_use_account">Don\'t have an Account? Click here</string>
+    <string name="add_auction">Create Auction</string>
+    <string name="not_filled_auction">Please fill all the input fields</string>
+    <string name="auction_successfully_created">Auction Successfully Created</string>
+    <string name="duration_of_auction">Duration of the auction in days</string>
+    <string name="auction_ends_on">Ends on</string>
+    <string name="auction_title">Title :</string>
+    <string name="auction_owner_message">You are the owner of the auction</string>
+    <string name="auction_bid_button">Bid</string>
+    <string name="auction_not_available">Auction not found</string>
+    <string name="auction_lost">You lost the auction</string>
+    <string name="current_user_auction_winner">You won the auction</string>
+    <string name="bidding_successful_message">Bidding was successful</string>
+    <string name="bidding_failed_message">Something went wrong, Please try again!</string>
+    <string name="bid_lower_than_current_message">Your bid cannot be lower than the current one</string>
+    <string name="current_bidder">Current Highest Bidder : </string>
+    <string name="bullet">\u2022</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_auction_list">Auction List</string>
+    <string name="menu_auction_bid_list">Auction Bid List</string>
+    <string name="navigation_menu">Menu</string>
+    <string name="current_bidder_history">Current Bidder :</string>
+    <string name="auction_description">Description : </string>
+    <string name="auction_end_date">End Date : </string>
+    <string name="your_bid">Your Bid</string>
+    <string name="current_max_bid">Current Highest Bid : </string>
+    <string name="login_system">WELCOME!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+
+
+</resources>

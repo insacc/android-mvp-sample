@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/login_system"
+        android:textColor="@color/textWhite"
+        android:textSize="@dimen/auction_title_text_size" />
+
+    <RelativeLayout
+        android:id="@+id/username_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+
+        <EditText
+            android:id="@+id/login_username_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@android:color/white"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:textColor="@color/textGray"
+            android:textSize="@dimen/auction_detail_size" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@+id/username_relative"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:id="@+id/password_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_relative">
+
+
+        <EditText
+            android:id="@+id/login_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLength="25"
+            android:textColor="@color/textGray"
+            android:hint="@string/password"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:textSize="@dimen/auction_detail_size" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/register_account_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_relative"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/register_ui_open_button"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@android:color/transparent"
+            android:stateListAnimator="@null"
+            android:text="@string/register_use_account"
+            android:textColor="@color/textWhite" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/register_account_relative"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="15dp"
+        android:background="#03719C"
+        android:textColor="@color/textWhite"
+        android:stateListAnimator="@null"
+        android:text="@string/login" />
+
+</RelativeLayout>
